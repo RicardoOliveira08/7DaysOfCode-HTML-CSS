@@ -1,0 +1,470 @@
+:root {
+    --bg-color: #8b444c;
+    --text-color: rgb(168, 165, 165);
+}
+
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+
+body {
+    background-color: rgba(255, 255, 255, .1);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+/*=== Cabecalho ===*/
+
+.cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+
+
+
+.img_logo {
+    display: block;
+    padding: 2em;
+}
+
+
+
+
+.menu ul {
+    display: flex;
+    padding-right: 20em;
+    list-style: none;
+    gap: 2.5em;
+    align-items: center;
+}
+
+
+
+
+.menu li {
+    background-color: white;
+    font-size: 1.4em;
+    color: rgb(128, 128, 128, 0.8);
+    font-weight: bold;
+}
+
+
+
+
+.menu a {
+    color: rgb(110, 108, 108);
+    text-decoration: none;
+}
+
+
+
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+
+
+.entrar {
+    background-color: white;
+    font-weight: bold;
+    color: var(--text-color);
+    font-size: 1.3em;
+    padding: 0.8em 1.2em;
+    border: none
+}
+
+
+
+
+.cadastrar {
+    background-color: var(--bg-color);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 0.8em 1.4em;
+    border: none;
+}
+
+
+
+
+/*=== Sobre nós ===*/
+
+.conteiner_sobre_nos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4em;
+}
+
+.sobre_nos {
+    font-size: 1.6em;
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+
+
+
+/*=== Metricas ===*/
+
+.conteudo {
+    text-align: center;
+}
+
+
+.conteudo h1 {
+    font-size: 4em;
+    margin-bottom: 0.2em;
+}
+
+
+
+
+.conteudo p {
+    font-size: 1.8em;
+    width: 70ch;
+    color: var(--text-color);
+    line-height: 1.3;
+}
+
+
+
+
+.conteiner_conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+
+.conteiner_conteudo_2 {
+    display: flex;
+    margin-top: 3em;
+    align-content: center;
+    gap: 4em;
+}
+
+
+
+
+.conteudo_2 {
+    letter-spacing: 0.1em;
+}
+
+
+
+
+.numeros {
+    font-size: 5em;
+    color: var(--bg-color);
+    margin-bottom: 0.2em;
+}
+
+
+
+
+.descricao {
+    margin-bottom: 0.8em;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+
+
+
+.saiba_mais {
+    font-size: 1.6em;
+    width: 29ch;
+    color: var(--text-color);
+    line-height: 1.3;
+}
+
+
+
+
+/*=== Vagas ===*/
+
+.conteiner_conteudo_vagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.vagas {
+    margin-top: 4em;
+    font-size: 1.5em;
+    color: var(--bg-color);
+    background-color: rgba(212, 210, 210, 0.2);
+    padding: 0.1em 1.3em;
+    border-radius: 1.3em;
+    font-weight: bold;
+}
+
+
+
+
+.conteudo_3 {
+    text-align: center;
+}
+
+
+
+
+.conteudo_3 h1 {
+    font-size: 2.5em;
+}
+
+
+
+
+.conteudo_3 p {
+    color: var(--text-color);
+    font-size: 1.6em;
+    padding-bottom: 2em;
+}
+
+
+
+
+.imagem {
+    width: 1216px;
+    height: 400px;
+}
+
+
+
+
+.conteiner_vagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+
+
+
+.titulo_vagas {
+    font-size: 2em;
+    margin-left: .5em
+}
+
+
+
+
+.bloco_vaga {
+    padding-top: 2em;
+    border: 1px solid rgba(224, 217, 217, 0.8);
+    padding: 1.8em 0.2em;
+    margin-bottom: 4em;
+    border-radius: 2rem;
+    background-color: rgb(250, 250, 250, 0.1);
+    max-width: 980px;
+    width: 100%;
+}
+
+
+
+
+.nome_vagas {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-left: 2.3em;
+}
+
+
+
+
+.conteudo_vagas {
+    display: flex;
+    padding-left: 3em;
+    gap: 12px;
+    font-size: 1.5em;
+}
+
+
+
+
+.conteudo_vagas h3 {
+    font-size: 4em;
+}
+
+
+
+
+.conteudo_vagas p {
+    color: var(--text-color);
+
+}
+
+
+/*=== Seção depoimentos ===*/
+
+.conteiner_depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.5em;
+}
+
+.conteiner_conteudo_depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(195, 25, 25, 0.03);
+    width: 140.6em;
+    height: 40.4em;
+}
+
+.conteudo_depoimentos {
+    text-align: center;
+}
+
+.colaboradores {
+    font-size: 1.4em;
+    color: var(--bg-color)
+}
+
+.conteudo_depoimentos p {
+    font-size: 3.6rem;
+    width: 55ch;
+    background-color: rgba(195, 25, 25, 0.03);
+}
+
+.autor_depoimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_depoimento {
+    width: 5.6rem;
+    height: 5.6rem;
+    margin-top: 1em;
+}
+
+.autor_depoimento h6 {
+    color: rgba(16, 24, 40, 1);
+    font-size: 1.6rem;
+    margin-bottom: 0.2em;
+}
+
+.autor_depoimento p {
+    font-size: 1.4rem;
+    color: var(--text-color)
+}
+
+/*== Rodapé ===*/
+
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 6em;
+    padding-top: 6em;
+    background-color: rgba(249, 250, 251, 1);
+}
+
+.conteiner_conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    min-width: 144.0em;
+    min-height: 43.0em;
+}
+
+.conteudo_rodape {
+    text-align: center;
+}
+
+.conteudo_rodape h5 {
+    margin-bottom: 0.2em;
+    font-size: 3.6em;
+    font-weight: bold;
+}
+
+.conteudo_rodape p {
+    font-size: 1.6em;
+    margin-bottom: 0.2em;
+    color: var(--text-color);
+}
+
+.rodape_formulario {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    margin: 1.3em 0 1.3em 0;
+    width: 49.2em;
+    height: 4.8em;
+}
+
+.caixa_pesquisa {
+    padding: 1em 1.5em;
+    font-size: 1.6em;
+    background-color: rgba(243, 237, 237, 0.5);
+    border: 1px solid rgb(209, 205, 205, 0.6);
+    border-radius: 0.3em;
+
+}
+
+.cadastrar_rodape {
+    padding: 1em 1.5em;
+    border-radius: .5em;
+    background-color: var(--bg-color);
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.copy {
+    font-size: 1.6em;
+    text-align: center;
+    color: var(--text-color)
+}
